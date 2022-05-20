@@ -1,0 +1,138 @@
+<GameSettings>
+  <UniverseSize>1500</UniverseSize>
+  <MSPerFrame>17</MSPerFrame>
+  <FramesPerShot>50</FramesPerShot>
+  <RespawnRate>300</RespawnRate> 
+  <GameServerPort>11000</GameServerPort>
+  <WebServerPort>80</WebServerPort>
+  <StartingTankHP>3</StartingTankHP>
+  <ProjectileSpeed>12.0</ProjectileSpeed>
+  <EngineStrength>2.5</EngineStrength>
+  <WallSize>50</WallSize>
+  <TankSize>60</TankSize>
+  <MaxPowerups>5</MaxPowerups>
+  <MinPowerupSpawnTime>588</MinPowerupSpawnTime>
+  <MaxPowerupSpawnTime>2353</MaxPowerupSpawnTime>
+
+  
+  <!-- top border -->
+  <Wall>
+    <p1><x>-725</x><y>-725</y></p1>
+	<p2><x>-125</x><y>-725</y></p2>
+  </Wall>
+  <Wall>
+    <p1><x>125</x><y>-725</y></p1>
+	<p2><x>725</x><y>-725</y></p2>
+  </Wall>
+  
+  <!-- left border -->
+  <Wall>
+    <p1><x>-725</x><y>-725</y></p1>
+	<p2><x>-725</x><y>-125</y></p2>
+  </Wall>
+  <Wall>
+    <p1><x>-725</x><y>125</y></p1>
+	<p2><x>-725</x><y>725</y></p2>
+  </Wall>
+  
+  <!-- right border -->
+  <Wall>
+    <p1><x>725</x><y>-725</y></p1>
+	<p2><x>725</x><y>-125</y></p2>
+  </Wall>
+  <Wall>
+    <p1><x>725</x><y>125</y></p1>
+	<p2><x>725</x><y>725</y></p2>
+  </Wall>
+  
+  <!-- bottom border -->
+  <Wall>
+    <p1><x>-725</x><y>725</y></p1>
+	<p2><x>-125</x><y>725</y></p2>
+  </Wall>
+  <Wall>
+    <p1><x>125</x><y>725</y></p1>
+	<p2><x>725</x><y>725</y></p2>
+  </Wall>
+  
+  <!-- upper room piece -->
+  <Wall>
+    <p1><x>-375</x><y>-375</y></p1>
+	<p2><x>375</x><y>-375</y></p2>
+  </Wall>
+
+  <!-- bottom room piece -->
+  <Wall>
+    <p1><x>-375</x><y>375</y></p1>
+	<p2><x>375</x><y>375</y></p2>
+  </Wall>
+
+  <!-- left room piece -->
+  <Wall>
+    <p1><x>-375</x><y>-375</y></p1>
+	<p2><x>-375</x><y>375</y></p2>
+  </Wall>
+
+  <!-- right room piece -->
+  <Wall>
+    <p1><x>375</x><y>-375</y></p1>
+	<p2><x>375</x><y>375</y></p2>
+  </Wall>
+  
+  <!-- inner top-left block -->
+  <Wall>
+    <p1><x>-155</x><y>-155</y></p1>
+	<p2><x>-155</x><y>-55</y></p2>
+  </Wall>
+  <Wall>
+    <p1><x>-105</x><y>-155</y></p1>
+	<p2><x>-105</x><y>-55</y></p2>
+  </Wall>
+  <Wall>
+    <p1><x>-55</x><y>-155</y></p1>
+	<p2><x>-55</x><y>-55</y></p2>
+  </Wall>
+
+  <!-- inner top-right block -->
+  <Wall>
+    <p1><x>55</x><y>-155</y></p1>
+	<p2><x>55</x><y>-55</y></p2>
+  </Wall>
+  <Wall>
+    <p1><x>105</x><y>-155</y></p1>
+	<p2><x>105</x><y>-55</y></p2>
+  </Wall>
+  <Wall>
+    <p1><x>155</x><y>-155</y></p1>
+	<p2><x>155</x><y>-55</y></p2>
+  </Wall>
+
+  <!-- inner bottom-left block -->
+  <Wall>
+    <p1><x>-155</x><y>55</y></p1>
+	<p2><x>-155</x><y>155</y></p2>
+  </Wall>
+  <Wall>
+    <p1><x>-105</x><y>55</y></p1>
+	<p2><x>-105</x><y>155</y></p2>
+  </Wall>
+  <Wall>
+    <p1><x>-55</x><y>55</y></p1>
+	<p2><x>-55</x><y>155</y></p2>
+  </Wall>
+
+  <!-- inner bottom-left block -->
+  <Wall>
+    <p1><x>155</x><y>55</y></p1>
+	<p2><x>155</x><y>155</y></p2>
+  </Wall>
+  <Wall>
+    <p1><x>105</x><y>55</y></p1>
+	<p2><x>105</x><y>155</y></p2>
+  </Wall>
+  <Wall>
+    <p1><x>55</x><y>55</y></p1>
+	<p2><x>55</x><y>155</y></p2>
+  </Wall>
+
+</GameSettings>

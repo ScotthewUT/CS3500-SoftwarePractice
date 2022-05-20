@@ -1,0 +1,6 @@
+<GameSettings>
+  <UniverseSize>900</UniverseSize>
+  <MSPerFrame>17</MSPerFrame>
+  <FramesPerShot>40</FramesPerShot>
+  <RespawnRate>150</RespawnRate> 
+</GameSettings>
